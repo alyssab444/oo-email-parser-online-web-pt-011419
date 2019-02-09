@@ -10,10 +10,11 @@ def initialize(emails)
 end 
 
 def parse
-  split_email = emails.split (",")
-  split_email.uniq 
+  parse = @email.split (",")
+  
 end 
 
+  
 
 
 end 
